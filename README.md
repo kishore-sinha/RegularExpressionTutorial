@@ -1,12 +1,12 @@
 # RegularExpressionTutorial
-* RegularExpression Tutorial Project explain the core concept with numerous examples
+* RegularExpression Tutorial Project explain the core concept with numerous examples.
 	
 
-### Main Application Areas for RegularExpressions are :
-..*To Develop Validation Frameworks
-..*To Develop Pattern Matching Application
-..*To Develop Translators like Compiler, Interpreter & Assembler etc
-..* To Develop Communication Protocol line TCP/IP, UDP etc
+#### Main Application Areas for RegularExpressions are :
+⋅⋅* To Develop Validation Frameworks.
+⋅⋅* To Develop Pattern Matching Application.
+⋅⋅* To Develop Translators like Compiler, Interpreter & Assembler etc.
+⋅⋅* To Develop Communication Protocol line TCP/IP, UDP etc.
 
 
 ## RegularExpression Concept
