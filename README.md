@@ -3,10 +3,10 @@
 	
 
 #### Main Application Areas for RegularExpressions are :
-⋅⋅* To Develop Validation Frameworks.
-⋅⋅* To Develop Pattern Matching Application.
-⋅⋅* To Develop Translators like Compiler, Interpreter & Assembler etc.
-⋅⋅* To Develop Communication Protocol line TCP/IP, UDP etc.
+* To Develop Validation Frameworks.
+* To Develop Pattern Matching Application.
+* To Develop Translators like Compiler, Interpreter & Assembler etc.
+* To Develop Communication Protocol line TCP/IP, UDP etc.
 
 
 ## RegularExpression Concept
