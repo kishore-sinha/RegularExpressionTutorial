@@ -27,14 +27,30 @@
 ## Matcher Class
 * Used to match the given pattern in the target string.
 * Matcher Object is created by using matcher method Pattern Class using target string.
-* Below important methods of Matcher Class.
-* **find()** -- tries to find the match, return true is available else false.
-* **start()** -- returns start index of the match.
-* **end()** -- returns the **end index+1** of the match.
-* **group()** -- returns the matched string.
+* Below are important methods of Matcher Class.
+|Method Name| Method Descripton|
+|-----------|------------------|
+|**find()** | tries to find the match, return true is available else false.|
+|**start()** | returns start index of the match.|
+|**end()** | returns the **end index+1** of the match.|
+|**group()** | returns the matched string.|
 
 
 ## Character Class
+* Used when searches group of characters.
+* ^ -- This symbol represent except or exclude.
+* [] -- Used to search group of things.
+* - -- Used to define range of pattern group.
+* Below are few examples to search group of Pattern.
+* [abc] -- Search for either 'a' or 'b' or 'c'.
+* [^abc] -- Search EXCEPT 'a' and 'b' and 'c'.
+* [a-z] -- Search any 'a' to 'z' Lower Case alphabet symbol.
+* [A-Z] -- Search any 'A' to 'Z' Upper Case alphabet symbol.
+* [a-zA-Z] -- Search any alphabet. Either upper/lower case from 'a' to 'z'.
+* [0-9] -- Search any digit from 0 to 9.
+* [a-zA-Z0-9] -- Search any alphanumeric character.
+* [^a-zA-Z0-9] -- Search except alphanumeric Character (in other words, Search for any special Character).
+
 
 ## Pre-Defined Character Class
 
