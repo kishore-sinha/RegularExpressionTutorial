@@ -28,12 +28,13 @@
 * Used to match the given pattern in the target string.
 * Matcher Object is created by using matcher method Pattern Class using target string.
 * Below are important methods of Matcher Class.
-| Method Name | Method Descripton |
-| ----------- | ------------------ |
-| **find()** | tries to find the match, return true is available else false. |
-| **start()** | returns start index of the match. |
-| **end()** | returns the **end index+1** of the match. |
-| **group()** | returns the matched string. |
+
+Method Name | Method Descripton 
+----------- | ------------------ 
+**find()** | tries to find the match, return true is available else false. 
+**start()** | returns start index of the match. 
+**end()** | returns the **end index+1** of the match. 
+**group()** | returns the matched string. 
 
 
 ## Character Class
