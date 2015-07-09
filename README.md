@@ -31,26 +31,29 @@
 
 Method Name | Method Descripton 
 ----------- | ------------------ 
-**find()** | tries to find the match, return true is available else false. 
-**start()** | returns start index of the match. 
-**end()** | returns the **end index+1** of the match. 
-**group()** | returns the matched string. 
+**find()** | Tries to find the match, return true is available else false. 
+**start()** | Returns start index of the match. 
+**end()** | Returns the **end index+1** of the match. 
+**group()** | Returns the matched string. 
 
 
 ## Character Class
 * Used when searches group of characters.
-* ^ -- This symbol represent except or exclude.
-* [] -- Used to search group of things.
-* - -- Used to define range of pattern group.
+* **^** -- Cap, This symbol represent except or exclude.
+* **[ ]** -- Square Bracket, Used to search group of things.
+* **-** -- Hyphen, Used to define range of pattern group.
 * Below are few examples to search group of Pattern.
-* [abc] -- Search for either 'a' or 'b' or 'c'.
-* [^abc] -- Search EXCEPT 'a' and 'b' and 'c'.
-* [a-z] -- Search any 'a' to 'z' Lower Case alphabet symbol.
-* [A-Z] -- Search any 'A' to 'Z' Upper Case alphabet symbol.
-* [a-zA-Z] -- Search any alphabet. Either upper/lower case from 'a' to 'z'.
-* [0-9] -- Search any digit from 0 to 9.
-* [a-zA-Z0-9] -- Search any alphanumeric character.
-* [^a-zA-Z0-9] -- Search except alphanumeric Character (in other words, Search for any special Character).
+
+Example | Description
+------- | -----------
+**[abc]** | Search for `either` 'a' or 'b' or 'c'.
+**[^abc]** | Search **EXCEPT** 'a' and 'b' and 'c'.
+**[a-z]** | Search any 'a' to 'z' Lower Case alphabet symbol.
+**[A-Z]** | Search any 'A' to 'Z' Upper Case alphabet symbol.
+**[a-zA-Z]** | Search any alphabet. Either upper/lower case from 'a' to 'z'.
+**[0-9]** | Search any digit from 0 to 9.
+**[a-zA-Z0-9]** | Search any alphanumeric character.
+**[^a-zA-Z0-9]** | Search except alphanumeric Character (Search for special Character).
 
 
 ## Pre-Defined Character Class
