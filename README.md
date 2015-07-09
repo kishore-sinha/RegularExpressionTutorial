@@ -33,7 +33,7 @@ Method Name | Method Descripton
 ----------- | ------------------ 
 **find()** | Tries to find the match, return true is available else false. 
 **start()** | Returns start index of the match. 
-**end()** | Returns the **end index+1** of the match. 
+**end()** | Returns the **`end index+1`** of the match. 
 **group()** | Returns the matched string. 
 
 
@@ -46,8 +46,8 @@ Method Name | Method Descripton
 
 Example | Description
 ------- | -----------
-**[abc]** | Search for `either` 'a' or 'b' or 'c'.
-**[^abc]** | Search **EXCEPT** 'a' and 'b' and 'c'.
+**[abc]** | Search for *`either`* 'a' or 'b' or 'c'.
+**[^abc]** | Search **`EXCEPT`** 'a' and 'b' and 'c'.
 **[a-z]** | Search any 'a' to 'z' Lower Case alphabet symbol.
 **[A-Z]** | Search any 'A' to 'Z' Upper Case alphabet symbol.
 **[a-zA-Z]** | Search any alphabet. Either upper/lower case from 'a' to 'z'.
