@@ -57,20 +57,21 @@ Example | Description
 
 
 ## Pre-Defined Character Class
+* Upper Case will search EXCEPT the actual pattern, Similar to ^ Cap character behaviour.
 * Below are few examples to search group of Pattern.
 
 Example | Description
 ------- | -----------
 **\s** | Search for Space Character. 
-**\S** | Search EXCEPT Space Character, means any character.
+**\S** | Search `EXCEPT` Space Character, means any character.
 **\d** | Search for Any Digit from 0 to 9, similar to [0-9]. 
-**\D** | Search EXCEPT digit, means any character. 
+**\D** | Search `EXCEPT` digit, means any character. 
 **\w** | Search for any Alphanumeric Character, similar to [a-zA-z0-9].  
-**\W** | Search EXCEPT Alphanumeric Character, means Special Character.  
-**.** | (Dot) Search for ANY Character.  
+**\W** | Search `EXCEPT` Alphanumeric Character, means Special Character.  
+**. (Dot)** | Search for ANY Character.  
 
-**Note** -- Since \ is considered as escape Character, hence need to use double \\ where intend to use \.
-...Or else compiler will throw illegal escape character exception at compile time.
+**Note** -- Since **\** is considered as escape Character, hence need to use double **\\** where intend to use \.
+... Or else compiler will throw `illegal escape character` exception at compile time.
 
 
 ## Quantifiers
