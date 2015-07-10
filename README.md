@@ -70,8 +70,8 @@ Example | Description
 **\W** | Search `EXCEPT` Alphanumeric Character, means Special Character.  
 **. (Dot)** | Search for ANY Character.  
 
-**Note** -- Since **\** is considered as escape Character, hence need to use double **\\** where intend to use \.
-... Or else compiler will throw `illegal escape character` exception at compile time.
+**Note** -- Since single **\** is considered as escape Character, hence need to use double **\\\** instead if  single **\**.
+			 Otherwise compiler will throw `illegal escape character` exception at compile time.
 
 
 ## Quantifiers
@@ -79,13 +79,13 @@ Example | Description
 * Used to specify one or continuous sequence of match as single match. 
 * Below are the Quantifiers.
 
-Quantifiers Name | Description
+Quantifier Name | Description
 ---------------- | -----------
 **+** | Search `Atleast` one occurrence.
 * **(Star)** | Search `Any` number of occurrence, including `ZERO` number, including Nothing (when cursor moves `end+1` index).
 **?** | Search `Atmost` one occurrence, including `ZERO` number, including Nothing (when cursor moves `end+1` index).
 
-Explain Quantifiers with examples
+* Explain Quantifiers with examples
 
 Example | Description
 ------- | -----------
