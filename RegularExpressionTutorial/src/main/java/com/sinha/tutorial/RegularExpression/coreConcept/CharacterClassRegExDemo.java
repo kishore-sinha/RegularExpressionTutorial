@@ -26,7 +26,7 @@ public class CharacterClassRegExDemo {
 		String targetString = "a7Mb@Z#9";
 		
 		for (String keyStr : hashtable.keySet()) {
-			System.out.println("****"+hashtable.get(keyStr)+"****");
+			System.out.println("**** "+hashtable.get(keyStr)+" ****");
 			Pattern p = Pattern.compile(keyStr);
 			Matcher m = p.matcher(targetString);
 			while(m.find()){
@@ -35,5 +35,4 @@ public class CharacterClassRegExDemo {
 			System.out.println("\n");
 		}
 	}
-
 }

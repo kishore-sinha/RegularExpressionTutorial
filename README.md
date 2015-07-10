@@ -82,8 +82,8 @@ Example | Description
 Quantifiers Name | Description
 ---------------- | -----------
 **+** | Search `Atleast` one occurrence.
-* | Search `Any` number of occurrence, including 0 number also.
-**?** | Search `Atmost` one occurrence.
+***(Star)** | Search `Any` number of occurrence, including `ZERO` number, including nothing as well.
+**?** | Search `Atmost` one occurrence, including `ZERO` number, including nothing as well.
 
 Explain Quantifiers with examples
 
@@ -91,8 +91,8 @@ Example | Description
 ------- | -----------
 **a** | searches `Exactly` one 'a'.
 **a+** | Searches `Atleast` one 'a'. 
-**a*** | Searches `Any` number of 'a's, including 0 number also.
-**a?** | Searches `Atmost` one 'a'.
+**a*** | Searches `Any` number of 'a's, including `ZERO` number, including nothing as well.
+**a?** | Searches `Atmost` one 'a', including `ZERO` number, including nothing as well.
 
 
 ## Patter Class split() & String Class split()
