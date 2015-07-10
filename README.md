@@ -75,6 +75,25 @@ Example | Description
 
 
 ## Quantifiers
+* Used to specify number of occurrences to match.
+* Used to specify one or continuous sequence of match as single match. 
+* Below are the Quantifiers.
+
+Quantifiers Name | Description
+---------------- | -----------
+**+** | Search `Atleast` one occurrence.
+***** | Search `Any` number of occurrence, including 0 number also.
+**?** | Search `Atmost` one occurrence.
+
+Explain Quantifiers with examples
+
+Example | Description
+------- | -----------
+**a** | searches `Exactly` one 'a'.
+**a+** | Searches `Atleast` one 'a'. 
+**a*** | Searches `Any` number of 'a's, including 0 number also.
+**a?** | Searches `Atmost` one 'a'.
+
 
 ## Patter Class split() & String Class split()
 
