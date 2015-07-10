@@ -82,7 +82,7 @@ Example | Description
 Quantifiers Name | Description
 ---------------- | -----------
 **+** | Search `Atleast` one occurrence.
-** * ** | Search `Any` number of occurrence, including 0 number also.
+*** | Search `Any` number of occurrence, including 0 number also.
 **?** | Search `Atmost` one occurrence.
 
 Explain Quantifiers with examples
