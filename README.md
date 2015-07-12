@@ -70,7 +70,7 @@ Example | Description
 **\W** | Search `EXCEPT` Alphanumeric Character, means Special Character.  
 **. (Dot)** | Search for ANY Character.  
 
-**Note** -- Since single **\** is considered as escape Character, hence need to use double **\\\** instead if  single **\**.
+**Note** -- Since single **\** is considered as escape Character, hence need to use double **\\\** , instead if  single **\**.
 			 Otherwise compiler will throw `illegal escape character` exception at compile time.
 
 
@@ -92,9 +92,39 @@ Example | Description
 **a** | searches `Exactly` one 'a'.
 **a+** | Searches `Atleast` one 'a'. 
 **a*** | Searches `Any` number of 'a's, including `ZERO` number, including Nothing (when cursor moves `end+1` index).
-**a?** | Searches `Atmost` one 'a', including `ZERO` number, including Nothing (when cursor moves `end+1` index).
+**a?** | Searches `Atmost` one 'a', including `ZERO` number, including Nothing (when cursor moves `end+1` index). Either 0 times or 1 times.
 
 
 ## Patter Class split() & String Class split()
+* Used when target string need to split according to a particular pattern.
+* After split, we will get tokens, other than pattern used to split.
+
+* Patter class split() takes target string as argument, where as String Class split() takes pattern as argument.
+
+* 2-ways to split the Target String based on . (dot). *\\s* or *[.]*.
+
 
 ## StringTokenizer
+* Its Special designed for tokenization activity.
+* Its present in *java.util* package.
+* StringTokenizer constructor takes Target String and Delimiter to tokenize.
+* On stringTokenizer object we can call *hasMoreTokens()* and *nextToken()* to get the tokens.
+* By default the Delimiter for StringTokenizer is taken as *Space* (\\s).
+
+
+## RegularExpression Examples
+* RegularExpression for Valid Indian Mobile Number.
+
+RegularExpression | Description
+----------------- | ------------
+[7-9][0-9]{9} or [789][0-9]{9} | 10-Digit Mobile Number in India.
+0?[7-9][0-9]{9} | 11-Digit Mobile Number in India then first digit start with 0.
+(91|0)?[7-9][0-9]{9} | Mobile Number in India is 10-Digit OR 11-Digit OR 12-Digit. If 11-Digit, it should start with 0, if 12-Digit it should start with 91.
+
+* RegularExpression for Valid Email-ID.
+
+RegularExpression | Description
+----------------- | ------------
+[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+ | sinha.kishore.06@gmail.com 
+[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.]a-zA-Z)+ | kishore.kr.sinha@yahoo.co.in 
+
