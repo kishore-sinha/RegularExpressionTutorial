@@ -126,5 +126,12 @@ RegularExpression | Description
 RegularExpression | Description
 ----------------- | ------------
 **[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+** | sinha.kishore.06@gmail.com 
-**[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.]a-zA-Z)+** | kishore.kr.sinha@yahoo.co.in 
+**[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.][a-zA-Z]+)+** | kishore.kr.sinha@yahoo.co.in 
 
+* Other RegularExpression Examples
+
+RegularExpression | Description
+----------------- | -----------
+**[aA][a-zA-Z]*** | Represents names Start with 'a' or 'A'. 
+**[a-zA-Z]*[lL]** | Represents names Ends with 'l' or 'L'. 
+**[aA][a-zA-z]*[lL]** | Represents names Start with 'a' or 'A' and Ends with 'l' or 'L'. 
