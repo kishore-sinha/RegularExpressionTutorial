@@ -113,18 +113,18 @@ Example | Description
 
 
 ## RegularExpression Examples
-* RegularExpression for Valid Indian Mobile Number.
+* RegularExpression for Valid Indian `Mobile Number`.
 
 RegularExpression | Description
 ----------------- | ------------
-[7-9][0-9]{9} or [789][0-9]{9} | 10-Digit Mobile Number in India.
-0?[7-9][0-9]{9} | 11-Digit Mobile Number in India then first digit start with 0.
-(91|0)?[7-9][0-9]{9} | Mobile Number in India is 10-Digit OR 11-Digit OR 12-Digit. If 11-Digit, it should start with 0, if 12-Digit it should start with 91.
+**[7-9][0-9]{9} or [789][0-9]{9}** | 10-Digit Mobile Number in India.
+**0?[7-9][0-9]{9}** | 11-Digit Mobile Number in India then first digit start with 0.
+**(91\|0)?[7-9][0-9]{9}** | Mobile Number in India is 10-Digit OR 11-Digit OR 12-Digit. If 11-Digit, it should start with 0, if 12-Digit it should start with 91.
 
-* RegularExpression for Valid Email-ID.
+* RegularExpression for Valid `Email-ID`.
 
 RegularExpression | Description
 ----------------- | ------------
-[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+ | sinha.kishore.06@gmail.com 
-[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.]a-zA-Z)+ | kishore.kr.sinha@yahoo.co.in 
+**[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+** | sinha.kishore.06@gmail.com 
+**[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.]a-zA-Z)+** | kishore.kr.sinha@yahoo.co.in 
 
